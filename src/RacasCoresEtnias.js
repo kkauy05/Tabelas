@@ -1,5 +1,5 @@
 import React from "react";
-import "./Tabeladois.css";
+import "./RacasCoresEtnias.css";
 
 const RacasCoresEtnias = () => {
   return (

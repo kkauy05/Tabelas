@@ -1,10 +1,10 @@
 .racas-container {
-  max-width: 1300px;
-  margin: 20px auto;
+  max-width: 1400px;
+  margin: 15px auto;
   padding: 0; 
-  
-  background: #ededed;
+  background: #F3F3F3;
   box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
+
 }
 
 
@@ -12,9 +12,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px 40px; 
+  padding: 45px 40px; 
   border-radius: 8px 8px;
-  background-color: #d4d0d0;
+  background-color: #E2E2E2;
   width: 100%; 
   box-sizing: border-box; 
 }
@@ -27,7 +27,7 @@
 
 .header-buttons .btn {
   margin-left: 10px;
-  padding: 8px 16px;
+  padding: 13px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -37,11 +37,13 @@
 .btn.add {
   background-color: #007bff;
   color: white;
+  font-size: 18px;
 }
 
 .btn.print {
   background-color: #ff6a00;
   color: white;
+  font-size: 18px;
 }
 
 
@@ -64,20 +66,28 @@
   flex: 1;
   display: flex;
   flex-direction: column;
+  margin-bottom: 8px;
 
 }
 
 .form-group label {
-  margin-bottom: 5px;
+  
   font-weight: bold;
   color: #333;
+  margin-left: 45px;
+  margin-top: 20px;
+  font-size: 18px;
+  
 }
 
 .form-group input {
-  padding: 8px;
+  padding: 12px;
+  width: 580px;
   border: 1px solid #ddd;
   border-radius: 4px;
-  font-size: 0.9em;
+  font-size: 18px;
+  margin-left: 40px;
+  margin-top: 5px;
 }
 
 .form .btn.search {
@@ -85,29 +95,30 @@
   background-color: #0552a4;
   color: white;
   border: none;
-  padding: 10px 20px;
+  padding: 13px 20px;
   cursor: pointer;
   border-radius: 4px;
-  font-size: 0.9em;
+  font-size: 18px;
+  margin-right: 43px;
 }
 
 .table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 20px;
+  
   
 }
 
 .table th,
 .table td {
-  padding: 10px;
+  padding: 15px;
   border: 1px solid #ddd;
   text-align: left;
-  font-size: 0.9em;
+  font-size: 18px;
 }
 
 .table th {
-  background-color: #d4d0d0;
+  background-color: #E2E2E2;
 }
 
 .table tbody tr:hover {
@@ -115,6 +126,6 @@
 }
  .Final {
   padding: 50px 40px;
-  background-color: #d4d0d0;
+  background-color: #E2E2E2;
   border-radius: 8px 8px;
  }

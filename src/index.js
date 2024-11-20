@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Tabeladois from './Tabeladois.js';
+
+//import App from './App.js';
 import reportWebVitals from './reportWebVitals';
+import RacasCoresEtnias from './RacasCoresEtnias.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Tabeladois />
+    
+    <RacasCoresEtnias />
   </React.StrictMode>
 );
 
